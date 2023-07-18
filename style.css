@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    float: left;
+}
+.row{
+    margin-top: 6px;
+    margin-left: 6px;
+}
+.col img{
+    margin: 2px;
+    padding: 5px;
+    border-radius: 25%;
+    border: 2px solid;
+    border-top-color:  red;
+    border-bottom-color: black;
+}
+body{
+    background-color: rgb(241, 233, 157);
+}
