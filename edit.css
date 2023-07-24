@@ -27,8 +27,6 @@ nav img{
     border-bottom-color: red;
     border-left-color:blue;
     border-right-color:greenyellow ;
-
-
 }
 .nav-box{
     flex: 1;
