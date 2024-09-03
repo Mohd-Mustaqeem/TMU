@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course</title>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LRDJG538D5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LRDJG538D5');
+</script>
+    <style>
+        body {
+            min-height: 100vh;
+            width: 100%;
+            background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/banner.jpg);
+            background-position: center;
+            position: relative;
+            background-size: cover;
+        }
+
+        body h1 {
+            text-align: center;
+            color: white;
+            font-size: 48px;
+            padding-top: 25px;
+            text-decoration: underline;
+            font-weight:900;
+            font-family: 'Poppins',sans-serif;
+        }
+        body select {
+            width: 200px;
+            height: 40px;
+            font-weight: 800;
+            border: 3px solid black;
+            border-radius: 10px;
+            font-size: 22px;
+        }
+
+        .image img {
+            margin-left: 50px;
+            height: 200px;
+            width: 200px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Select Your Course</h1>
+    <center>
+        <select name="links" id="" onchange="location =this.value;">
+            <option value="course">Course</option>
+            <option value="bca.html">BCA</option>
+            <option value="mca.html">MCA</option>
+            <option value="bba.html">BBA</option>
+            <option value="mba.html">MBA</option>
+            <option value="bcom.html">B.Com</option>
+            <option value="mcom.html">M.Com</option>
+            <option value="ba.html">BA</option>
+            <option value="bpharm.html">B.Pharm</option>
+            <option value="btech.html">B.Tech</option>
+        </select>
+    </center><br><br>
+    <div class="image">
+        <a href="images\bca.jpg"><img
+                src="images\bca.jpg"></a>
+        <a href="images\mca.jpg"><img
+                src="images\mca.jpg"></a>
+        <a href="images\bba.jpg"><img
+                src="images\bba.jpg"></a>
+        <a href="images\mba.jpg"><img
+                src="images\mba.jpg"></a>
+        <a href="images\bcom.jpg"><img
+                src="images\bcom.jpg"></a>
+        <a href="images\mcom.jpg"><img
+                src="images\mcom.jpg"></a>
+        <a href="images\ma.jpg"><img
+                src="images\ma.jpg"></a>
+        <a href="images\bpharm.jpg"><img
+                src="images\bpharm.jpg"></a>
+        <a href="images\btech.jpg"><img
+                src="images\btech.jpg"></a>
+    </div>
+</body>
+
+</html>
