@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LRDJG538D5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LRDJG538D5');
+</script>
+</head>
+<style>
+    .contact {
+        min-height: 30vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/banner.jpg);
+        position: relative;
+        background-size: cover;
+    }
+
+    .row {
+        width: 80%;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: 46px;
+        text-decoration: underline;
+    }
+
+    .location {
+        width: 80%;
+        margin: auto;
+        padding: 60px 0;
+    }
+
+    .location iframe {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .info {
+        width: 80%;
+        margin: auto;
+    }
+
+    .cols h3 {
+        color: red;
+        font-size: 24px;
+    }
+
+    .cols {
+        font-weight: 700;
+    }
+
+    .cols p {
+        margin: 5px;
+        padding: 0;
+    }
+
+    .rows1 {
+        display: flex;
+        margin: 18px;
+        padding: 4px 0px;
+    }
+
+    .hero-btn {
+        text-decoration: none;
+        color: #0a0a0a;
+        border: 1px solid #1d1c1c;
+        padding: 12px 30px;
+        font-size: 13px;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .hero-btn:hover {
+        color: #fff;
+        border: 2px solid #161616;
+        background: #f44336;
+        transition: 1s;
+    }
+
+    .form {
+        margin-left: 20%;
+        margin-top: 20px;
+    }
+
+    .form input {
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 17px;
+        outline: none;
+        border: 1px solid #ccc;
+        ;
+    }
+
+    .form textarea {
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 17px;
+    }
+
+    .footer {
+        margin: auto;
+        min-height: 20vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/banner.jpg);
+        background-position: center;
+
+    }
+
+    .foot {
+        font-size: 26px;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        font-weight: bolder;
+    }
+    .hr {
+        margin-top: 20%;
+    }
+    .road{
+        min-height: 30vh;
+        width: 80%;
+        margin-left: 20%;
+    }
+    .road img{
+        width: 80%;
+        margin-top: 10%;
+        border-radius: 8px;
+        
+    }
+    .road img:hover{
+        box-sizing: border-box;
+        width: 50%;
+
+    }
+</style>
+
+<body>
+    <section class="contact">
+        <div class="row">
+            <h1>Contact Us</h1>
+        </div>
+    </section>
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55928.86634457807!2d78.59262003124996!3d28.822357600000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390afdf565c6bc21%3A0xefb0ce367e3f2602!2sTeerthanker%20Mahaveer%20University!5e0!3m2!1sen!2sin!4v1690030850977!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="info">
+        <div class="rows1">
+            <div class="rows">
+                <div class="cols">
+                    <h3>Address</h3>
+                    <p>Delhi Road, NH 24, Bagadpur,<br> Uttar Pradesh 244001</p>
+                </div>
+                <div class="cols">
+                    <h3>Phone</h3>
+                    <p>+91 9407827336</p>
+                </div>
+                <div class="cols">
+                    <h3>Phone</h3>
+                    <p>1800-270-1490 (Toll Free)</p>
+                </div>
+                <div class="cols">
+                    <h3>Email</h3>
+                    <p>dir.admissions@tmu.ac.in</p>
+                    <p>admissions@tmu.ac.in</p>
+                </div>
+            </div>
+            <div class="form">
+                <form action="https://formspree.io/f/xzblzjkk" method="POST">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter email address" required>
+                    <input type="mobile" name="mobile" placeholder="Enter your mobile number" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="road">
+        <a href="https://www.tmu.ac.in/virtual-tour">
+        <img src="images/road.jpg">
+    </a>
+    </div>
+    <hr color="black" style="height: 3px;" class="hr">
+
+</body>
+<footer class="footer">
+    <div class="foot">
+        <p> &#169; Teerthanker Mahaveer University. All
+            Rights Reserved.<br>
+            NAAC || NIRF || Anti-Ragging || Privacy-Policy || Disclaimer || Contact</p>
+    </div>
+</footer>
+
+</html>
